@@ -1,0 +1,27 @@
+{
+  "seed": 3831,
+  "word2vec": {
+    "vector_size": 100,
+    "window": 10,
+    "min_count": 5,
+    "sg": 1,
+    "negative": 5,
+    "epochs": 10,
+    "workers": 1,
+    "seed": 3831
+  },
+  "hash_function": "zlib.crc32",
+  "token_pattern": "[a-z0-9]+(?:'[a-z]+)?",
+  "swear_token": "swearword",
+  "lemmatisation": false,
+  "stop_words_removed": false,
+  "corpus_reviews": 31073,
+  "corpus_tokens": 3501271,
+  "vocabulary_size": 15417,
+  "train_seconds": 180.5,
+  "oov_token_share": {
+    "train": 0.0126,
+    "validation": 0.0188,
+    "test": 0.027
+  }
+}

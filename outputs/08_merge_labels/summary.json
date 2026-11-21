@@ -1,0 +1,22 @@
+{
+  "n": 4000,
+  "by_split_annotator": {
+    "test/human": 600,
+    "train/human": 560,
+    "train/llm": 2240,
+    "validation/human": 120,
+    "validation/llm": 480
+  },
+  "test_label_counts": {
+    "l1": 212,
+    "l2": 197,
+    "l3": 194,
+    "l4": 56,
+    "l5": 155,
+    "l6": 267,
+    "l7": 35
+  },
+  "text_cells_differing": [
+    "R1041"
+  ]
+}

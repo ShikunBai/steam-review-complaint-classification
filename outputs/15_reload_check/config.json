@@ -1,0 +1,14 @@
+{
+  "checked_runs": 21,
+  "probability_tolerance": 1e-06,
+  "device": "cpu",
+  "torch": "2.14.0",
+  "test_set_used": false,
+  "models_for_test": [
+    "BiLSTM-Random",
+    "BiLSTM-W2V",
+    "TF-IDF + LR",
+    "TextCNN-Random",
+    "TextCNN-W2V"
+  ]
+}

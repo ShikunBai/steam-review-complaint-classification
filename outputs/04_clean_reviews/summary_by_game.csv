@@ -1,0 +1,21 @@
+split,appid,name,collected,eligible,eligible_neg,eligible_pos,median_words_eligible
+train,2784470,9 Kings,2000,1550,433,1117,41.0
+train,1466860,Age of Empires IV: Anniversary Edition,2000,1634,603,1031,49.0
+train,2062430,BALL x PIT,2190,1630,203,1427,32.0
+train,2406770,Bodycam,2000,1771,903,868,43.0
+train,3321460,Crimson Desert Enhanced,2000,1794,451,1343,99.0
+train,2536520,Diablo II: Resurrected – Infernal Edition,2009,1597,425,1172,32.0
+train,39210,FINAL FANTASY XIV Online,2000,1570,268,1302,51.0
+train,2483190,Forza Horizon 6,2000,1693,947,746,63.0
+train,1547000,Grand Theft Auto: San Andreas – The Definitive Edition,2000,1485,724,761,34.0
+train,1627720,Lies of P,6437,4774,201,4573,38.0
+train,1623730,Palworld,4049,3142,200,2942,30.0
+train,3812600,ReStory: Chill Electronics Repairs,2000,1635,304,1331,39.0
+train,294100,RimWorld,9958,8045,199,7846,38.0
+train,1142710,Total War: WARHAMMER III,2000,1798,1002,796,59.0
+validation,2358720,Black Myth: Wukong,2720,1737,202,1535,52.0
+validation,1203620,Enshrouded,860,821,200,621,111.0
+validation,3059520,F1® 25,1020,677,200,477,30.0
+test,1669000,Age of Wonders 4,480,475,201,274,112.0
+test,3932890,Escape from Tarkov,409,367,204,163,49.0
+test,3010850,Gears of War: E-Day,280,259,208,51,81.0

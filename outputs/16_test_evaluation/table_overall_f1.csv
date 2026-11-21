@@ -1,0 +1,6 @@
+model,runs,micro-F1,macro-F1
+TF-IDF + LR,1,0.688,0.588
+TextCNN-W2V,5,0.680 ± 0.019,0.643 ± 0.014
+TextCNN-Random,5,0.616 ± 0.007,0.572 ± 0.013
+BiLSTM-W2V,5,0.667 ± 0.009,0.628 ± 0.015
+BiLSTM-Random,5,0.623 ± 0.020,0.585 ± 0.020

@@ -1,0 +1,53 @@
+{
+  "split": "validation",
+  "n_reviews": 600,
+  "runs": {
+    "TF-IDF + LR": [
+      3831
+    ],
+    "TextCNN-W2V": [
+      3831,
+      3931,
+      4031,
+      4131,
+      4231
+    ],
+    "TextCNN-Random": [
+      3831,
+      3931,
+      4031,
+      4131,
+      4231
+    ],
+    "BiLSTM-W2V": [
+      3831,
+      3931,
+      4031,
+      4131,
+      4231
+    ],
+    "BiLSTM-Random": [
+      3831,
+      3931,
+      4031,
+      4131,
+      4231
+    ],
+    "DistilBERT": [
+      3831,
+      3931,
+      4031
+    ]
+  },
+  "distilbert_note": "lr 5e-5; seeds 4131 and 4231 not available (non-finite training loss on MPS; not rerun by decision)",
+  "pos_weight": {
+    "l1": 4.0179,
+    "l2": 1.3529,
+    "l3": 3.0639,
+    "l4": 25.4151,
+    "l5": 5.422,
+    "l6": 2.7685,
+    "l7": 27.5714
+  },
+  "bce_clip": 1e-07
+}

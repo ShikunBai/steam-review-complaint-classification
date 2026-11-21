@@ -1,0 +1,6 @@
+model,mean,std,count
+TF-IDF + LR,0.399,,1
+TextCNN-W2V,0.381,0.017,5
+TextCNN-Random,0.432,0.01,5
+BiLSTM-W2V,0.421,0.017,5
+BiLSTM-Random,0.468,0.023,5

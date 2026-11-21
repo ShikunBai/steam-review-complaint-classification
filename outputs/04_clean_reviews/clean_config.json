@@ -1,0 +1,49 @@
+{
+  "input": "data/raw/03_collect_reviews",
+  "min_words_exclusive": 5,
+  "vocab_min_reviews": 20,
+  "second_chance_share": 0.8,
+  "max_non_latin_share": 0.1,
+  "steam_languages": [
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "th",
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "es",
+    "el",
+    "fr",
+    "it",
+    "id",
+    "hu",
+    "nl",
+    "nb",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "fi",
+    "sv",
+    "tr",
+    "vi",
+    "uk",
+    "ar"
+  ],
+  "n_collected": 48412,
+  "n_eligible": 38454,
+  "exclusions": {
+    "eligible": 38454,
+    "5 words or fewer": 8939,
+    "not English": 492,
+    "empty after cleaning": 295,
+    "duplicate text": 232
+  },
+  "dropped_fields": [
+    "posted_text",
+    "text (raw text stays in data/raw)"
+  ]
+}

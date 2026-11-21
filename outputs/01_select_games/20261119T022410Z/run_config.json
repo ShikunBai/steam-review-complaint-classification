@@ -1,0 +1,73 @@
+{
+  "run_id": "20261119T022410Z",
+  "collected_at_utc": "2026-11-19T02:35:21.369444+00:00",
+  "seed": 3831,
+  "frame_size": 100,
+  "n_games": 20,
+  "split": {
+    "train": 14,
+    "validation": 3,
+    "test": 3
+  },
+  "min_english_negative": 300,
+  "search_url": "https://store.steampowered.com/search/",
+  "search_params": {
+    "category1": 998,
+    "supportedlang": "english",
+    "hidef2p": 1,
+    "l": "english",
+    "cc": "sg",
+    "ndl": 1
+  },
+  "api_url": "https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/",
+  "adult_descriptor_ids": [
+    3,
+    4
+  ],
+  "adult_tags": [
+    "Hentai",
+    "NSFW",
+    "Nudity",
+    "Sexual Content"
+  ],
+  "sleep_seconds": 2,
+  "logged_in": false,
+  "n_eligible": 60,
+  "exclusions": {
+    "eligible": 60,
+    "fewer than 300 English negative reviews": 19,
+    "community review page redirects or is empty": 8,
+    "adult content (tag: Sexual Content)": 5,
+    "adult content (tag: Nudity, Sexual Content)": 4,
+    "adult content (tag: Nudity)": 3,
+    "same series as 2536520 (diablo)": 1
+  },
+  "selected": {
+    "train": [
+      "12210",
+      "270880",
+      "413150",
+      "1142710",
+      "1478500",
+      "1627720",
+      "1669000",
+      "2075800",
+      "2483190",
+      "2536520",
+      "2868840",
+      "3010850",
+      "3321460",
+      "4001890"
+    ],
+    "validation": [
+      "1203620",
+      "2358720",
+      "3218230"
+    ],
+    "test": [
+      "1677280",
+      "3059520",
+      "3932890"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "seed": 3831,
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.9,
+    "sublinear_tf": true
+  },
+  "C_grid": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "chosen_C": 100.0,
+  "shared_threshold": 0.37,
+  "threshold_grid": [
+    0.05,
+    0.95,
+    0.01
+  ],
+  "stop_words_kept": [
+    "again",
+    "against",
+    "but",
+    "cannot",
+    "down",
+    "few",
+    "least",
+    "less",
+    "more",
+    "most",
+    "never",
+    "no",
+    "nobody",
+    "none",
+    "nor",
+    "not",
+    "nothing",
+    "nowhere",
+    "off",
+    "only",
+    "too",
+    "up",
+    "very",
+    "without"
+  ],
+  "vocabulary_size": 29071,
+  "validation": {
+    "micro-F1": 0.6989,
+    "macro-F1": 0.4769,
+    "samples-F1": 0.5827,
+    "exact match": 0.4
+  },
+  "validation_per_label_thresholds_optimistic": {
+    "micro-F1": 0.7011,
+    "macro-F1": 0.5255,
+    "samples-F1": 0.5688,
+    "exact match": 0.4017
+  },
+  "test_evaluated": false
+}

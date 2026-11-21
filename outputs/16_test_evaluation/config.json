@@ -1,0 +1,65 @@
+{
+  "run_at_utc": "2026-11-20T05:04:42Z",
+  "test_reviews": 600,
+  "test_games": [
+    "Age of Wonders 4",
+    "Escape from Tarkov",
+    "Gears of War: E-Day"
+  ],
+  "models": [
+    "TF-IDF + LR",
+    "TextCNN-W2V",
+    "TextCNN-Random",
+    "BiLSTM-W2V",
+    "BiLSTM-Random"
+  ],
+  "main_model": "TextCNN-W2V",
+  "runs": {
+    "TF-IDF + LR": [
+      "C=100"
+    ],
+    "TextCNN-W2V": [
+      "w2v_lr0.001_do0.3_f200_s3831",
+      "w2v_lr0.001_do0.3_f200_s3931",
+      "w2v_lr0.001_do0.3_f200_s4031",
+      "w2v_lr0.001_do0.3_f200_s4131",
+      "w2v_lr0.001_do0.3_f200_s4231"
+    ],
+    "TextCNN-Random": [
+      "random_lr0.002_do0.5_f100_s3831",
+      "random_lr0.002_do0.5_f100_s3931",
+      "random_lr0.002_do0.5_f100_s4031",
+      "random_lr0.002_do0.5_f100_s4131",
+      "random_lr0.002_do0.5_f100_s4231"
+    ],
+    "BiLSTM-W2V": [
+      "w2v_lr0.001_h128_do0.5_s3831",
+      "w2v_lr0.001_h128_do0.5_s3931",
+      "w2v_lr0.001_h128_do0.5_s4031",
+      "w2v_lr0.001_h128_do0.5_s4131",
+      "w2v_lr0.001_h128_do0.5_s4231"
+    ],
+    "BiLSTM-Random": [
+      "random_lr0.008_h256_do0.5_s3831",
+      "random_lr0.008_h256_do0.5_s3931",
+      "random_lr0.008_h256_do0.5_s4031",
+      "random_lr0.008_h256_do0.5_s4131",
+      "random_lr0.008_h256_do0.5_s4231"
+    ]
+  },
+  "comparisons": [
+    "TextCNN-W2V vs TF-IDF + LR",
+    "TextCNN-W2V vs TextCNN-Random",
+    "BiLSTM-W2V vs BiLSTM-Random",
+    "TextCNN-W2V vs BiLSTM-W2V"
+  ],
+  "bootstrap": {
+    "resamples": 2000,
+    "seed": 3831,
+    "unit": "review"
+  },
+  "thresholds": "each run's shared threshold chosen on the validation set",
+  "not_tested": {
+    "DistilBERT": "decided 2026-11-20, see notebook 14"
+  }
+}

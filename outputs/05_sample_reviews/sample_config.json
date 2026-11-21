@@ -1,0 +1,33 @@
+{
+  "input": "outputs/04_clean_reviews/reviews_eligible.csv",
+  "seed": 3831,
+  "per_game": {
+    "negative": 160,
+    "positive": 40
+  },
+  "human_per_game_train_validation": {
+    "negative": 32,
+    "positive": 8
+  },
+  "labelled": {
+    "test": {
+      "human": 600,
+      "llm": 0
+    },
+    "train": {
+      "human": 560,
+      "llm": 2240
+    },
+    "validation": {
+      "human": 120,
+      "llm": 480
+    }
+  },
+  "word2vec": {
+    "games": 14,
+    "max_per_game": 5000,
+    "reviews": 31073,
+    "words": 3467718,
+    "min_reviews_per_game": 1485
+  }
+}

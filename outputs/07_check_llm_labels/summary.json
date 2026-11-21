@@ -1,0 +1,15 @@
+{
+  "n": 2720,
+  "prevalence_all": {
+    "l1 Technical and performance": 0.2213,
+    "l2 Gameplay and design": 0.4232,
+    "l3 Content and updates": 0.2243,
+    "l4 Community and cheating": 0.0272,
+    "l5 Pricing and monetisation": 0.1301,
+    "l6 Developer conduct and operations": 0.2301,
+    "l7 Other complaint": 0.0353,
+    "0 No complaint": 0.1452
+  },
+  "mean_labels": 1.292,
+  "n_4plus": 65
+}

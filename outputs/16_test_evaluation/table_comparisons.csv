@@ -1,0 +1,9 @@
+comparison,metric,difference,95% CI,share of resamples > 0
+TextCNN-W2V − TF-IDF + LR,micro-F1,-0.0072,"[-0.030, 0.015]",0.245
+TextCNN-W2V − TF-IDF + LR,macro-F1,0.0547,"[0.019, 0.088]",0.999
+TextCNN-W2V − TextCNN-Random,micro-F1,0.0648,"[0.049, 0.080]",1.0
+TextCNN-W2V − TextCNN-Random,macro-F1,0.0703,"[0.052, 0.089]",1.0
+BiLSTM-W2V − BiLSTM-Random,micro-F1,0.0445,"[0.031, 0.057]",1.0
+BiLSTM-W2V − BiLSTM-Random,macro-F1,0.0424,"[0.028, 0.057]",1.0
+TextCNN-W2V − BiLSTM-W2V,micro-F1,0.013,"[0.001, 0.025]",0.982
+TextCNN-W2V − BiLSTM-W2V,macro-F1,0.0149,"[-0.001, 0.029]",0.967

@@ -1,0 +1,86 @@
+{
+  "smoke_test": false,
+  "stage1": {
+    "lr": [
+      0.0005,
+      0.001,
+      0.002,
+      0.004
+    ],
+    "hidden": 128,
+    "dropout": 0.5
+  },
+  "lr_extensions": {
+    "w2v": [],
+    "random": [
+      0.008,
+      0.016
+    ]
+  },
+  "stage2": {
+    "hidden": [
+      64,
+      128,
+      256
+    ],
+    "dropout": [
+      0.3,
+      0.5
+    ]
+  },
+  "fixed": {
+    "batch_size": 32,
+    "max_epochs": 50,
+    "patience": 5,
+    "clip_norm": 1.0,
+    "max_len": 512,
+    "head": 256,
+    "tail": 256
+  },
+  "tune_seed": 3831,
+  "extra_seeds": [
+    3931,
+    4031,
+    4131,
+    4231
+  ],
+  "best_lr_stage1": {
+    "w2v": 0.001,
+    "random": 0.008
+  },
+  "chosen": {
+    "w2v": {
+      "lr": 0.001,
+      "hidden": 128,
+      "dropout": 0.5
+    },
+    "random": {
+      "lr": 0.008,
+      "hidden": 256,
+      "dropout": 0.5
+    }
+  },
+  "validation_mean": {
+    "w2v": {
+      "val_micro_f1": 0.669,
+      "val_macro_f1": 0.503
+    },
+    "random": {
+      "val_micro_f1": 0.6033,
+      "val_macro_f1": 0.4549
+    }
+  },
+  "validation_std": {
+    "w2v": {
+      "val_micro_f1": 0.0242,
+      "val_macro_f1": 0.0224
+    },
+    "random": {
+      "val_micro_f1": 0.032,
+      "val_macro_f1": 0.0102
+    }
+  },
+  "device": "cpu",
+  "torch": "2.14.0",
+  "test_evaluated": false
+}

@@ -1,0 +1,7 @@
+,l1 Technical and performance,l2 Gameplay and design,l3 Content and updates,l4 Community and cheating,l5 Pricing and monetisation,l6 Developer conduct and operations,l7 Other complaint
+Prevalence,0.365,0.518,0.212,0.012,0.053,0.127,0.027
+Positives (n),219,311,127,7,32,76,16
+TF-IDF + LR,0.898,0.919,0.838,0.850,0.898,0.824,0.788
+TextCNN-W2V,0.925 ± 0.002,0.906 ± 0.003,0.818 ± 0.007,0.871 ± 0.011,0.920 ± 0.003,0.875 ± 0.002,0.871 ± 0.004
+TextCNN-Random,0.841 ± 0.028,0.873 ± 0.006,0.792 ± 0.010,0.867 ± 0.022,0.863 ± 0.021,0.782 ± 0.013,0.869 ± 0.009
+BiLSTM-W2V,0.914 ± 0.008,0.901 ± 0.010,0.792 ± 0.021,0.887 ± 0.045,0.924 ± 0.011,0.867 ± 0.010,0.879 ± 0.020

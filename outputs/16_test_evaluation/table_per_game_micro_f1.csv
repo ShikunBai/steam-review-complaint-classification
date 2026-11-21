@@ -1,0 +1,7 @@
+model,Age of Wonders 4,Escape from Tarkov,Gears of War: E-Day
+TF-IDF + LR,0.714,0.649,0.697
+TextCNN-W2V,0.701 ± 0.025,0.688 ± 0.024,0.653 ± 0.018
+TextCNN-Random,0.658 ± 0.025,0.596 ± 0.023,0.591 ± 0.013
+BiLSTM-W2V,0.691 ± 0.016,0.668 ± 0.014,0.643 ± 0.015
+BiLSTM-Random,0.650 ± 0.021,0.628 ± 0.035,0.590 ± 0.032
+Reviews (n),200,200,200

@@ -1,0 +1,19 @@
+# Review text and identifiers are never published
+data/
+.salt
+*.xlsx
+*.numbers
+labelling/llm/batches/
+labelling/human/
+outputs/04_clean_reviews/reviews_*.csv
+outputs/05_sample_reviews/labelled_set.csv
+outputs/05_sample_reviews/word2vec_corpus.csv
+outputs/07_check_llm_labels/reread_4plus_labels.csv
+outputs/08_merge_labels/all_labels.csv
+outputs/09_tfidf_lr_baseline/preprocessed_text.csv
+outputs/12_distilbert/models/
+
+# System and editor files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/

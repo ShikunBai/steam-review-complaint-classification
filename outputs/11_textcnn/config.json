@@ -1,0 +1,76 @@
+{
+  "smoke_test": false,
+  "grid": {
+    "lr": [
+      0.0005,
+      0.001,
+      0.002,
+      0.004
+    ],
+    "dropout": [
+      0.3,
+      0.5
+    ],
+    "n_filters": [
+      100,
+      200
+    ]
+  },
+  "fixed": {
+    "kernel_sizes": [
+      3,
+      4,
+      5
+    ],
+    "batch_size": 32,
+    "max_epochs": 50,
+    "patience": 5,
+    "max_len": 512,
+    "head": 256,
+    "tail": 256
+  },
+  "tune_seed": 3831,
+  "extra_seeds": [
+    3931,
+    4031,
+    4131,
+    4231
+  ],
+  "vocabulary_size": 15419,
+  "embedding_init_scale": 0.25740981101989746,
+  "device": "cpu",
+  "torch": "2.14.0",
+  "chosen": {
+    "w2v": {
+      "lr": 0.001,
+      "dropout": 0.3,
+      "n_filters": 200
+    },
+    "random": {
+      "lr": 0.002,
+      "dropout": 0.5,
+      "n_filters": 100
+    }
+  },
+  "validation_mean": {
+    "w2v": {
+      "val_micro_f1": 0.686,
+      "val_macro_f1": 0.5076
+    },
+    "random": {
+      "val_micro_f1": 0.6344,
+      "val_macro_f1": 0.4517
+    }
+  },
+  "validation_std": {
+    "w2v": {
+      "val_micro_f1": 0.0156,
+      "val_macro_f1": 0.0153
+    },
+    "random": {
+      "val_micro_f1": 0.0243,
+      "val_macro_f1": 0.0272
+    }
+  },
+  "test_evaluated": false
+}

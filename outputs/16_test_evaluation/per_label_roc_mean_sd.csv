@@ -1,0 +1,8 @@
+,mean,mean,mean,mean,mean,mean,mean,sd,sd,sd,sd,sd,sd,sd
+,l1 Technical and performance,l2 Gameplay and design,l3 Content and updates,l4 Community and cheating,l5 Pricing and monetisation,l6 Developer conduct and operations,l7 Other complaint,l1 Technical and performance,l2 Gameplay and design,l3 Content and updates,l4 Community and cheating,l5 Pricing and monetisation,l6 Developer conduct and operations,l7 Other complaint
+model,,,,,,,,,,,,,,
+TF-IDF + LR,0.8785,0.9066,0.8468,0.8891,0.8992,0.8456,0.8611,,,,,,,
+TextCNN-W2V,0.9117,0.9026,0.8065,0.8761,0.9268,0.8349,0.9138,0.0018,0.0059,0.0158,0.0047,0.0031,0.004,0.0027
+TextCNN-Random,0.8537,0.857,0.7633,0.8248,0.851,0.7562,0.8937,0.0107,0.0072,0.0129,0.0342,0.0134,0.012,0.007
+BiLSTM-W2V,0.8937,0.8935,0.7678,0.8019,0.9169,0.8201,0.9217,0.0118,0.0069,0.0268,0.017,0.0095,0.0087,0.0047
+BiLSTM-Random,0.8712,0.8824,0.7642,0.8517,0.8754,0.7818,0.8809,0.0069,0.0122,0.0182,0.0369,0.0174,0.0252,0.0186
